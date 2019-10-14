@@ -423,7 +423,7 @@ export default {
     },
     handleBlur(e) {
       const filter = this.filter;
-      if (filter!=='' && this.multiple) {
+      if (filter !=='' && this.multiple) {
         this.selectItem(filter);
       }
       if (this.isMouseDown || e.relatedTarget === this.$refs.search) {
